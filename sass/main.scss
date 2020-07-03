@@ -99,6 +99,10 @@ body {
     position: absolute;
     top: 4rem;
     left: 4rem;
+    @include respond(tab-port) {
+      top: 1rem;
+      left: 1rem;
+    }
   }
 
   &__logo {

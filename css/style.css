@@ -76,6 +76,10 @@ body {
     position: absolute;
     top: 4rem;
     left: 4rem; }
+    @media only screen and (max-width: 56.25em) {
+      .header__logo-box {
+        top: 1rem;
+        left: 1rem; } }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
