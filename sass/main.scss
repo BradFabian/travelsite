@@ -186,6 +186,9 @@ body {
     border-bottom: 1px solid $color-primary;
     padding: 3px;
     transition: all 0.2s;
+    @include respond(tab-port) {
+      font-size: 1rem;
+    }
   }
 
   &:hover {
