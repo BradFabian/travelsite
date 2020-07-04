@@ -214,11 +214,20 @@ body {
   }
 }
 
+// About Section
 .section-about {
   background-color: #fff;
   margin: 50px auto;
-  width: 90%;
-  padding: 50px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-about .container {
+  text-align: center;
+  left: 15%; 
+  position: relative;
+  width:70%;
 }
 
 .section-about h1 {
@@ -237,16 +246,59 @@ body {
   padding: 20px;
   display: grid;
   justify-self: center;
-  text-align: center;
+  text-align: left;
   flex-direction: column;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 5px;
+  height: auto;
 }
 
-.features {
+.feature {
   grid-gap: 5px;
   margin-right: 5px;
+  display: flex;
+  line-height: 17px;
 }
+
+.feature-text {
+  display: block;
+  margin: 0 0 0 12px;
+}
+
+.feature-title {
+  text-size-adjust: 2rem;
+  margin-bottom: 0;
+}
+
+.feature-description {
+  text-size-adjust: 2rem;
+  margin-top: 5px;
+}
+
+.feature:nth-child(1){
+  color: rgb(58, 73, 121);
+}
+
+.feature:nth-child(2){
+  color: rgb(58, 119, 121);
+}
+
+.feature:nth-child(3){
+  color: rgb(117, 121, 58);
+}
+
+.feature:nth-child(4){
+  color: rgb(121, 58, 93);
+}
+
+.feature:nth-child(5){
+  color: rgb(58, 70, 121);
+}
+
+.feature:nth-child(6){
+  color: rgb(121, 58, 58);
+}
+
 
 /* animation */
 @keyframes moveInLeft {
