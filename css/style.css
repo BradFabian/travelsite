@@ -281,15 +281,12 @@ body {
     display: grid;
     margin-right: 5px;
     line-height: 20px; }
-  .feature-text {
-    display: block;
-    margin: 0 0 0 12px; }
-  .feature-title {
-    text-size-adjust: 2rem;
-    margin-bottom: 0; }
-  .feature-description {
-    text-size-adjust: 2rem;
-    margin-top: 5px; } }
+  .feature:nth-child(3) {
+    display: none; }
+  .feature:nth-child(5) {
+    display: none; }
+  .feature:nth-child(6) {
+    display: none; } }
 
 /* animation */
 @keyframes moveInLeft {

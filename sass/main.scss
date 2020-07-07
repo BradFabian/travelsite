@@ -351,13 +351,21 @@ body {
     margin-right: 5px;
     line-height: 20px;
   }
+
+  .feature:nth-child(3){
+    display: none;
+  }
+  
+  .feature:nth-child(5){
+    display: none;
+  }
+  
+  .feature:nth-child(6){
+    display: none;
+  }
 }
 
-.feature-description {
-  text-size-adjust: 2rem;
-  margin-top: 5px;
-}
-}
+
 
 /* animation */
 @keyframes moveInLeft {
