@@ -216,6 +216,7 @@ body {
 
 // About Section
 .section-about {
+  display: flex;
   background-color: #fff;
   margin: 50px auto;
   width: 100%;
@@ -239,6 +240,7 @@ body {
   text-size-adjust: 2rem;
 }
 
+// Feature section
 .section-features {
   background-color: #fff;
   margin: 0 auto;
@@ -257,7 +259,7 @@ body {
   grid-gap: 5px;
   margin-right: 5px;
   display: flex;
-  line-height: 17px;
+  line-height: 20px;
 }
 
 .feature-text {
@@ -298,7 +300,21 @@ body {
 .feature:nth-child(6){
   color: rgb(121, 58, 58);
 }
-
+// features media queries
+@media(max-width: 960px) {
+  .section-features {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    justify-self: center;
+    text-align: left;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    height: auto;
+  }
+}
 
 /* animation */
 @keyframes moveInLeft {
