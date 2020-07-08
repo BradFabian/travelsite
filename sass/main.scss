@@ -226,9 +226,9 @@ body {
 
 .section-about .container {
   text-align: center;
-  left: 15%; 
+  left: 15%;
   position: relative;
-  width:70%;
+  width: 70%;
 }
 
 .section-about h1 {
@@ -245,7 +245,7 @@ body {
   background-color: #fff;
   margin: 50px auto;
   width: 100%;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 30px 20px;
   display: grid;
   justify-self: center;
   text-align: left;
@@ -277,31 +277,31 @@ body {
   margin-top: 5px;
 }
 
-.feature:nth-child(1){
+.feature:nth-child(1) {
   color: rgb(58, 73, 121);
 }
 
-.feature:nth-child(2){
+.feature:nth-child(2) {
   color: rgb(58, 119, 121);
 }
 
-.feature:nth-child(3){
+.feature:nth-child(3) {
   color: rgb(117, 121, 58);
 }
 
-.feature:nth-child(4){
+.feature:nth-child(4) {
   color: rgb(121, 58, 93);
 }
 
-.feature:nth-child(5){
+.feature:nth-child(5) {
   color: rgb(58, 70, 121);
 }
 
-.feature:nth-child(6){
+.feature:nth-child(6) {
   color: rgb(121, 58, 58);
 }
 // features media queries
-@media(max-width: 1024px) {
+@media (max-width: 1265px) {
   .section-features {
     margin: 0 auto;
     width: 100%;
@@ -316,7 +316,7 @@ body {
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .section-features {
     margin: 0 auto;
     width: 100%;
@@ -331,7 +331,7 @@ body {
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .section-features {
     margin: 0 auto;
     width: 100%;
@@ -346,26 +346,25 @@ body {
   }
 
   .feature {
+    width: 100%;
     grid-gap: 5px;
     display: grid;
     margin-right: 5px;
     line-height: 20px;
   }
 
-  .feature:nth-child(3){
+  .feature:nth-child(3) {
     display: none;
   }
-  
-  .feature:nth-child(5){
+
+  .feature:nth-child(5) {
     display: none;
   }
-  
-  .feature:nth-child(6){
+
+  .feature:nth-child(6) {
     display: none;
   }
 }
-
-
 
 /* animation */
 @keyframes moveInLeft {
