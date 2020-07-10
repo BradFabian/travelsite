@@ -308,12 +308,10 @@ body {
   border-radius: 8px;
   justify-content: center;
   text-align: center;
-  align-items: center;
-  box-shadow: 0 2px 4px 2px #727171; }
+  align-items: center; }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px 4px #727171; }
+  animation: float 0.5s forwards; }
 
 .card .card-header {
   height: 35%;
@@ -385,6 +383,14 @@ a {
 .map {
   margin-top: 1.3rem;
   color: #ad5830; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    box-shadow: 0 1px 3px 1px #8b8b8b; }
+  100% {
+    transform: translateY(-1.7px);
+    box-shadow: 0 8px 12px 8px #8b8b8b; } }
 
 /* animation */
 @keyframes moveInLeft {
