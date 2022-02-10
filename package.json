@@ -18,6 +18,6 @@
   "homepage": "https://github.com/BradFabian/travelsite#readme",
   "dependencies": {
     "fitty": "^2.3.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
